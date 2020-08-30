@@ -7,6 +7,19 @@ const {
   deleteBootcamp,
 } = require('../controllers/bootcamps');
 
+const router = express.Router();
+
+router.route('/').get(getBootcamps).post(createBootcamp);
+
+router
+  .route('/:id')
+  .get(getBootcamp)
+  .put(updateBootcamp)
+  .delete(deleteBootcamp);
+
+module.exports = router;
+
+
 /* router.get('/', (req, res) => {
   // res.send('<h1>Hello from express</h1>');
   //res.json({ name: "Abhishek" });
@@ -33,15 +46,3 @@ router.delete('/:id', (req, res) => {
     .status(200)
     .json({ success: true, msg: `Delete Bootcamp ${req.params.id}` });
 }); */
-
-const router = express.Router();
-
-router.route('/').get(getBootcamps).post(createBootcamp);
-
-router
-  .route('/:id')
-  .get(getBootcamp)
-  .put(updateBootcamp)
-  .delete(deleteBootcamp);
-
-module.exports = router;
