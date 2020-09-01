@@ -1,4 +1,4 @@
-//any request we make this function will ran
+//any request we make, this function will ran
 
 // @desc    Logs request to console
 const logger = (req, res, next) => {
