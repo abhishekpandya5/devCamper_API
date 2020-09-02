@@ -7,11 +7,12 @@
 		"website": "https://devworks.com",
 		"phone": "(111) 111-1111",
 		"email": "enroll@devworks.com",
-		"address": "233 Bay State Rd Boston MA 02215",
+		"address": "233 GT Rd Kavi Nagar Ghaziabad UP 201002",
 		"careers": ["Web Development", "UI/UX", "Business"],
 		"housing": true,
 		"jobAssistance": true,
-		"jobGuarantee": false
+		"jobGuarantee": false,
+		"averageCost": 10000
 	},
 	{
 		"_id": "5d713a66ec8f2b88b8f830b8",
@@ -21,11 +22,12 @@
 		"website": "https://moderntech.com",
 		"phone": "(222) 222-2222",
 		"email": "enroll@moderntech.com",
-		"address": "220 Pawtucket St, Lowell, MA 01854",
+		"address": "220 Dilshad Garden, Vivek Vihar, New Delhi, New Delhi, 110095",
 		"careers": ["Web Development", "UI/UX", "Mobile Development"],
 		"housing": false,
 		"jobAssistance": true,
-		"jobGuarantee": false
+		"jobGuarantee": false,
+		"averageCost": 12000
 	},
 	{
 		"_id": "5d725a037b292f5f8ceff787",
@@ -35,11 +37,12 @@
 		"website": "https://codemasters.com",
 		"phone": "(333) 333-3333",
 		"email": "enroll@codemasters.com",
-		"address": "85 South Prospect Street Burlington VT 05405",
+		"address": "85 Hauz Khas Kalu Sarai New Delhi New Delhi 110016",
 		"careers": ["Web Development", "Data Science", "Business"],
 		"housing": false,
 		"jobAssistance": false,
-		"jobGuarantee": false
+		"jobGuarantee": false,
+		"averageCost": 8000
 	},
 	{
 		"_id": "5d725a1b7b292f5f8ceff788",
@@ -49,7 +52,7 @@
 		"website": "https://devcentral.com",
 		"phone": "(444) 444-4444",
 		"email": "enroll@devcentral.com",
-		"address": "45 Upper College Rd Kingston RI 02881",
+		"address": "45 GT Rd Lajpat Nagar Sahibabad Rajendra Nagar Ghaziabad 201005",
 		"careers": [
 			"Mobile Development",
 			"Web Development",
@@ -58,6 +61,7 @@
 		],
 		"housing": false,
 		"jobAssistance": true,
-		"jobGuarantee": true
+		"jobGuarantee": true,
+		"averageCost": 5000
 	}
 ]
